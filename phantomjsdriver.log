@@ -1,0 +1,410 @@
+[INFO  - 2017-06-17T19:32:49.425Z] GhostDriver - Main - running on port 28688
+[INFO  - 2017-06-17T19:32:49.793Z] Session [bf98ce90-5393-11e7-b2a8-49699b770b97] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-17T19:32:49.794Z] Session [bf98ce90-5393-11e7-b2a8-49699b770b97] - page.customHeaders:  - {}
+[INFO  - 2017-06-17T19:32:49.794Z] Session [bf98ce90-5393-11e7-b2a8-49699b770b97] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-17T19:32:49.794Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bf98ce90-5393-11e7-b2a8-49699b770b97
+[ERROR - 2017-06-17T19:32:57.873Z] Session [bf98ce90-5393-11e7-b2a8-49699b770b97] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-17T19:32:57.874Z] Session [bf98ce90-5393-11e7-b2a8-49699b770b97] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-17T19:33:02.770Z] Session [bf98ce90-5393-11e7-b2a8-49699b770b97] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-17T19:33:02.770Z] Session [bf98ce90-5393-11e7-b2a8-49699b770b97] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:224)
+[INFO  - 2017-06-17T19:33:06.262Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-17T19:34:39.216Z] GhostDriver - Main - running on port 9301
+[INFO  - 2017-06-17T19:34:39.441Z] Session [00f39c80-5394-11e7-b061-e32bbce99f0d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-17T19:34:39.441Z] Session [00f39c80-5394-11e7-b061-e32bbce99f0d] - page.customHeaders:  - {}
+[INFO  - 2017-06-17T19:34:39.442Z] Session [00f39c80-5394-11e7-b061-e32bbce99f0d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-17T19:34:39.442Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 00f39c80-5394-11e7-b061-e32bbce99f0d
+[ERROR - 2017-06-17T19:34:47.889Z] Session [00f39c80-5394-11e7-b061-e32bbce99f0d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-17T19:34:47.890Z] Session [00f39c80-5394-11e7-b061-e32bbce99f0d] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-17T19:34:52.834Z] Session [00f39c80-5394-11e7-b061-e32bbce99f0d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-17T19:34:52.837Z] Session [00f39c80-5394-11e7-b061-e32bbce99f0d] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:224)
+[INFO  - 2017-06-17T19:34:56.455Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-17T19:36:32.432Z] GhostDriver - Main - running on port 27709
+[INFO  - 2017-06-17T19:36:32.660Z] Session [446fc3d0-5394-11e7-8947-a3f900fcb0d9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-17T19:36:32.660Z] Session [446fc3d0-5394-11e7-8947-a3f900fcb0d9] - page.customHeaders:  - {}
+[INFO  - 2017-06-17T19:36:32.661Z] Session [446fc3d0-5394-11e7-8947-a3f900fcb0d9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-17T19:36:32.661Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 446fc3d0-5394-11e7-8947-a3f900fcb0d9
+[ERROR - 2017-06-17T19:36:41.399Z] Session [446fc3d0-5394-11e7-8947-a3f900fcb0d9] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-17T19:36:41.399Z] Session [446fc3d0-5394-11e7-8947-a3f900fcb0d9] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-17T19:36:46.294Z] Session [446fc3d0-5394-11e7-8947-a3f900fcb0d9] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-17T19:36:46.295Z] Session [446fc3d0-5394-11e7-8947-a3f900fcb0d9] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:224)
+[INFO  - 2017-06-17T19:36:49.811Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-17T22:12:03.375Z] GhostDriver - Main - running on port 7374
+[INFO  - 2017-06-17T22:12:03.719Z] Session [fe2d0070-53a9-11e7-80e2-07735cdc103b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-17T22:12:03.719Z] Session [fe2d0070-53a9-11e7-80e2-07735cdc103b] - page.customHeaders:  - {}
+[INFO  - 2017-06-17T22:12:03.719Z] Session [fe2d0070-53a9-11e7-80e2-07735cdc103b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-17T22:12:03.720Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fe2d0070-53a9-11e7-80e2-07735cdc103b
+[ERROR - 2017-06-17T22:12:11.619Z] Session [fe2d0070-53a9-11e7-80e2-07735cdc103b] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-17T22:12:11.620Z] Session [fe2d0070-53a9-11e7-80e2-07735cdc103b] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-17T22:12:16.520Z] Session [fe2d0070-53a9-11e7-80e2-07735cdc103b] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-17T22:12:16.521Z] Session [fe2d0070-53a9-11e7-80e2-07735cdc103b] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:224)
+[INFO  - 2017-06-17T22:12:20.018Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-17T23:01:39.393Z] GhostDriver - Main - running on port 5638
+[INFO  - 2017-06-17T23:01:40.033Z] Session [ec336470-53b0-11e7-a1b7-81de4efe932a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-17T23:01:40.033Z] Session [ec336470-53b0-11e7-a1b7-81de4efe932a] - page.customHeaders:  - {}
+[INFO  - 2017-06-17T23:01:40.034Z] Session [ec336470-53b0-11e7-a1b7-81de4efe932a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-17T23:01:40.034Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ec336470-53b0-11e7-a1b7-81de4efe932a
+[ERROR - 2017-06-17T23:01:47.965Z] Session [ec336470-53b0-11e7-a1b7-81de4efe932a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-17T23:01:47.966Z] Session [ec336470-53b0-11e7-a1b7-81de4efe932a] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-17T23:01:52.858Z] Session [ec336470-53b0-11e7-a1b7-81de4efe932a] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-17T23:01:52.859Z] Session [ec336470-53b0-11e7-a1b7-81de4efe932a] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1497628512/js/hype_functions_min.js:224)
+[INFO  - 2017-06-17T23:01:56.373Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-17T23:32:54.155Z] GhostDriver - Main - running on port 9794
+[INFO  - 2017-06-17T23:32:54.530Z] Session [497d64b0-53b5-11e7-a147-51e0522a3fe2] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-17T23:32:54.531Z] Session [497d64b0-53b5-11e7-a147-51e0522a3fe2] - page.customHeaders:  - {}
+[INFO  - 2017-06-17T23:32:54.531Z] Session [497d64b0-53b5-11e7-a147-51e0522a3fe2] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-17T23:32:54.531Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 497d64b0-53b5-11e7-a147-51e0522a3fe2
+[INFO  - 2017-06-24T00:24:34.808Z] GhostDriver - Main - running on port 30909
+[INFO  - 2017-06-24T00:24:35.117Z] Session [800fc550-5873-11e7-8768-f912c1daf2e5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-24T00:24:35.117Z] Session [800fc550-5873-11e7-8768-f912c1daf2e5] - page.customHeaders:  - {}
+[INFO  - 2017-06-24T00:24:35.117Z] Session [800fc550-5873-11e7-8768-f912c1daf2e5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-24T00:24:35.118Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 800fc550-5873-11e7-8768-f912c1daf2e5
+[ERROR - 2017-06-24T00:24:43.586Z] Session [800fc550-5873-11e7-8768-f912c1daf2e5] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-24T00:24:43.586Z] Session [800fc550-5873-11e7-8768-f912c1daf2e5] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-24T00:24:48.474Z] Session [800fc550-5873-11e7-8768-f912c1daf2e5] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-24T00:24:48.475Z] Session [800fc550-5873-11e7-8768-f912c1daf2e5] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:224)
+[INFO  - 2017-06-24T00:24:52.272Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-24T00:29:47.066Z] GhostDriver - Main - running on port 3255
+[INFO  - 2017-06-24T00:29:47.575Z] Session [3a4d3b00-5874-11e7-b4be-d9e818e3d6be] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-24T00:29:47.576Z] Session [3a4d3b00-5874-11e7-b4be-d9e818e3d6be] - page.customHeaders:  - {}
+[INFO  - 2017-06-24T00:29:47.576Z] Session [3a4d3b00-5874-11e7-b4be-d9e818e3d6be] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-24T00:29:47.576Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3a4d3b00-5874-11e7-b4be-d9e818e3d6be
+[ERROR - 2017-06-24T00:29:55.958Z] Session [3a4d3b00-5874-11e7-b4be-d9e818e3d6be] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-24T00:29:55.959Z] Session [3a4d3b00-5874-11e7-b4be-d9e818e3d6be] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-24T00:30:00.849Z] Session [3a4d3b00-5874-11e7-b4be-d9e818e3d6be] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-24T00:30:00.850Z] Session [3a4d3b00-5874-11e7-b4be-d9e818e3d6be] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:224)
+[INFO  - 2017-06-24T00:30:04.440Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-24T00:32:40.562Z] GhostDriver - Main - running on port 13593
+[INFO  - 2017-06-24T00:32:41.158Z] Session [a1c2d380-5874-11e7-a716-b7bc9c3f6d90] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-24T00:32:41.158Z] Session [a1c2d380-5874-11e7-a716-b7bc9c3f6d90] - page.customHeaders:  - {}
+[INFO  - 2017-06-24T00:32:41.159Z] Session [a1c2d380-5874-11e7-a716-b7bc9c3f6d90] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-24T00:32:41.159Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a1c2d380-5874-11e7-a716-b7bc9c3f6d90
+[ERROR - 2017-06-24T00:32:49.547Z] Session [a1c2d380-5874-11e7-a716-b7bc9c3f6d90] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-24T00:32:49.548Z] Session [a1c2d380-5874-11e7-a716-b7bc9c3f6d90] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-24T00:32:54.434Z] Session [a1c2d380-5874-11e7-a716-b7bc9c3f6d90] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-24T00:32:54.434Z] Session [a1c2d380-5874-11e7-a716-b7bc9c3f6d90] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:224)
+[INFO  - 2017-06-24T00:32:58.144Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-24T01:12:42.222Z] GhostDriver - Main - running on port 14176
+[INFO  - 2017-06-24T01:12:42.670Z] Session [392749e0-587a-11e7-871d-65296f1f0245] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-24T01:12:42.671Z] Session [392749e0-587a-11e7-871d-65296f1f0245] - page.customHeaders:  - {}
+[INFO  - 2017-06-24T01:12:42.671Z] Session [392749e0-587a-11e7-871d-65296f1f0245] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-24T01:12:42.672Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 392749e0-587a-11e7-871d-65296f1f0245
+[ERROR - 2017-06-24T01:13:38.715Z] Session [392749e0-587a-11e7-871d-65296f1f0245] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-24T01:13:38.721Z] Session [392749e0-587a-11e7-871d-65296f1f0245] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-24T01:13:43.687Z] Session [392749e0-587a-11e7-871d-65296f1f0245] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-24T01:13:43.698Z] Session [392749e0-587a-11e7-871d-65296f1f0245] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:224)
+[INFO  - 2017-06-24T01:13:48.277Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-24T01:14:49.041Z] GhostDriver - Main - running on port 7678
+[INFO  - 2017-06-24T01:14:49.496Z] Session [84c58100-587a-11e7-b36f-89ab15291d10] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-24T01:14:49.496Z] Session [84c58100-587a-11e7-b36f-89ab15291d10] - page.customHeaders:  - {}
+[INFO  - 2017-06-24T01:14:49.496Z] Session [84c58100-587a-11e7-b36f-89ab15291d10] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-24T01:14:49.497Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 84c58100-587a-11e7-b36f-89ab15291d10
+[ERROR - 2017-06-24T01:14:58.687Z] Session [84c58100-587a-11e7-b36f-89ab15291d10] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-24T01:14:58.695Z] Session [84c58100-587a-11e7-b36f-89ab15291d10] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-24T01:15:03.561Z] Session [84c58100-587a-11e7-b36f-89ab15291d10] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-24T01:15:03.567Z] Session [84c58100-587a-11e7-b36f-89ab15291d10] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:224)
+[INFO  - 2017-06-24T01:15:13.072Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-24T01:17:14.630Z] GhostDriver - Main - running on port 31313
+[INFO  - 2017-06-24T01:17:14.972Z] Session [db7b1320-587a-11e7-8ded-1f4d903446ee] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-24T01:17:14.972Z] Session [db7b1320-587a-11e7-8ded-1f4d903446ee] - page.customHeaders:  - {}
+[INFO  - 2017-06-24T01:17:14.972Z] Session [db7b1320-587a-11e7-8ded-1f4d903446ee] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-24T01:17:14.973Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: db7b1320-587a-11e7-8ded-1f4d903446ee
+[ERROR - 2017-06-24T01:17:23.747Z] Session [db7b1320-587a-11e7-8ded-1f4d903446ee] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-24T01:17:23.749Z] Session [db7b1320-587a-11e7-8ded-1f4d903446ee] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-24T01:17:28.741Z] Session [db7b1320-587a-11e7-8ded-1f4d903446ee] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-24T01:17:28.753Z] Session [db7b1320-587a-11e7-8ded-1f4d903446ee] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:224)
+[INFO  - 2017-06-24T01:17:34.714Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-24T01:19:48.698Z] GhostDriver - Main - running on port 31346
+[INFO  - 2017-06-24T01:19:49.049Z] Session [3751d120-587b-11e7-ae03-e54f73e087a1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-24T01:19:49.049Z] Session [3751d120-587b-11e7-ae03-e54f73e087a1] - page.customHeaders:  - {}
+[INFO  - 2017-06-24T01:19:49.050Z] Session [3751d120-587b-11e7-ae03-e54f73e087a1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-24T01:19:49.050Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3751d120-587b-11e7-ae03-e54f73e087a1
+[ERROR - 2017-06-24T01:19:58.020Z] Session [3751d120-587b-11e7-ae03-e54f73e087a1] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-24T01:19:58.025Z] Session [3751d120-587b-11e7-ae03-e54f73e087a1] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-24T01:20:02.839Z] Session [3751d120-587b-11e7-ae03-e54f73e087a1] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-24T01:20:02.842Z] Session [3751d120-587b-11e7-ae03-e54f73e087a1] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498180461/js/hype_functions_min.js:224)
+[INFO  - 2017-06-24T01:20:07.415Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-26T20:33:37.569Z] GhostDriver - Main - running on port 17273
+[INFO  - 2017-06-26T20:33:37.882Z] Session [bbbec320-5aae-11e7-b5fe-4df5656277b2] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-26T20:33:37.883Z] Session [bbbec320-5aae-11e7-b5fe-4df5656277b2] - page.customHeaders:  - {}
+[INFO  - 2017-06-26T20:33:37.883Z] Session [bbbec320-5aae-11e7-b5fe-4df5656277b2] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-26T20:33:37.883Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bbbec320-5aae-11e7-b5fe-4df5656277b2
+[ERROR - 2017-06-26T20:33:48.873Z] Session [bbbec320-5aae-11e7-b5fe-4df5656277b2] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-26T20:33:48.874Z] Session [bbbec320-5aae-11e7-b5fe-4df5656277b2] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-26T20:33:53.757Z] Session [bbbec320-5aae-11e7-b5fe-4df5656277b2] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-26T20:33:53.757Z] Session [bbbec320-5aae-11e7-b5fe-4df5656277b2] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:224)
+[INFO  - 2017-06-26T20:33:57.313Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-26T20:34:36.889Z] GhostDriver - Main - running on port 29287
+[INFO  - 2017-06-26T20:34:37.343Z] Session [df2fca70-5aae-11e7-a6d8-0bfdb7baa120] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-26T20:34:37.343Z] Session [df2fca70-5aae-11e7-a6d8-0bfdb7baa120] - page.customHeaders:  - {}
+[INFO  - 2017-06-26T20:34:37.343Z] Session [df2fca70-5aae-11e7-a6d8-0bfdb7baa120] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-26T20:34:37.344Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: df2fca70-5aae-11e7-a6d8-0bfdb7baa120
+[ERROR - 2017-06-26T20:34:44.704Z] Session [df2fca70-5aae-11e7-a6d8-0bfdb7baa120] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-26T20:34:44.705Z] Session [df2fca70-5aae-11e7-a6d8-0bfdb7baa120] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-26T20:34:49.597Z] Session [df2fca70-5aae-11e7-a6d8-0bfdb7baa120] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-26T20:34:49.598Z] Session [df2fca70-5aae-11e7-a6d8-0bfdb7baa120] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:224)
+[INFO  - 2017-06-26T20:34:53.120Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-06-26T20:36:49.376Z] GhostDriver - Main - running on port 8982
+[INFO  - 2017-06-26T20:36:49.647Z] Session [2e0bc770-5aaf-11e7-a959-41fdf9c7524d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-26T20:36:49.648Z] Session [2e0bc770-5aaf-11e7-a959-41fdf9c7524d] - page.customHeaders:  - {}
+[INFO  - 2017-06-26T20:36:49.648Z] Session [2e0bc770-5aaf-11e7-a959-41fdf9c7524d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-26T20:36:49.648Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2e0bc770-5aaf-11e7-a959-41fdf9c7524d
+[ERROR - 2017-06-26T20:36:57.733Z] Session [2e0bc770-5aaf-11e7-a959-41fdf9c7524d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'currentPlayerObj[(currentPlayerObj.length-1)].url')
+[ERROR - 2017-06-26T20:36:57.734Z] Session [2e0bc770-5aaf-11e7-a959-41fdf9c7524d] - page.onError - stack:
+  loadTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:169)
+  loadTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:180)
+  playTrack (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:168)
+  loadAndPlay (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:158)
+  (anonymous function) (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:304)
+  dispatch (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  handle (http://static.hypem.net/rev_1492790219/js/libs/jquery-3.2.1.min.js:3)
+  dispatchEvent (:0)
+  U (:119)
+  $ (:108)
+  $ (:101)
+  gh (:141)
+  sh (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:152)
+  (anonymous function) (:153)
+[ERROR - 2017-06-26T20:37:02.608Z] Session [2e0bc770-5aaf-11e7-a959-41fdf9c7524d] - page.onError - msg: TypeError: undefined is not an object (evaluating 'activePlayer.type')
+[ERROR - 2017-06-26T20:37:02.609Z] Session [2e0bc770-5aaf-11e7-a959-41fdf9c7524d] - page.onError - stack:
+  playback_check (http://static.hypem.net/rev_1498433878/js/hype_functions_min.js:224)
+[INFO  - 2017-06-26T20:37:06.215Z] ShutdownReqHand - _handle - About to shutdown
